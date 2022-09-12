@@ -1,11 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import store from './store/store'
+import { Provider } from 'react-redux';
+import Greeting from "./components/Greeting";
+
 
 function App() {
-    return (<h1>Hello World!</h1>);
+    return (
+        <Greeting />
+    );
 }
 
 ReactDOM.render(
-    <App/>,
+    <Provider store={store}>
+        <App/>
+    </Provider>,
     document.getElementById('root'),
 );

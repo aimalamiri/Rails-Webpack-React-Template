@@ -1,5 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getMessage } from '../store/message/messageSlice';
 
-function Greeting() {
-    return (<h1>Hello</h1>);
+const Greeting = () => {
+    const message = useSelector((state) => state.message.message);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getMessage());
+    }, []);
+
+    return (<h1>{message.text}</h1>);
 }
+
+export default Greeting;
