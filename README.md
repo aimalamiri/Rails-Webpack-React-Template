@@ -1,24 +1,56 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails React
 
-Things you may want to cover:
+This is a simple project that includes React and Redux into Rails 7.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Rails 7.0
+- React
+- Redux
+- 
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple steps.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+- Make sure you already installed Ruby version 3 or higher and Git. 
 
-* How to run the test suite
+### Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+Clone the repository using the below commands.
 
-* Deployment instructions
+- `git clone git@github.com:aimalamiri/Rails-Webpack-React-Template.git `
+- `cd Rails-Webpack-React-Template`
+- `rails db:create db:migrate db:seed`
+- `bin/dev` to compile the javascript assets
+- `rails server`
 
-* ...
+### Usage
+
+Kindly modify the files as needed.
+
+## Author
+
+👤 **Aimal Aimiri**
+
+- GitHub: [@aimalamiri](https://github.com/aimalamiri)
+- Twitter: [@meaimal](https://twitter.com/meaimal)
+- LinkedIn: [Aimal Amiri](https://linkedin.com/in/aimal-amiri)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/aimalamiri/Rails-Webpack-React-Template/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
